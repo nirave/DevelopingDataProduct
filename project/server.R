@@ -2,7 +2,7 @@ library(UsingR)
 
 shinyServer(  
     function(input, output) {    
-        helpText = "To run this, please enter the rate of return, the years to invest, and the initial investment in terms of dollars.  Values are automatically calculated upon hitting enter.  Note that it is limited to 1-50 years with a maximumn of $1M"
+        helpText = "This app calculates the Investment, in terms of dollar amounts, after a few years.  It will provide the final amount, and the a graph throughout the years as your investment grows.  To run this, please enter the rate of return, the years to invest, and the initial investment in terms of dollars.  Values are automatically calculated upon hitting enter.  Note that it is limited to 1-50 years with a maximumn of $1M"
         output$newInvestment <- renderPlot({ 
             lastYear <- 2016 + input$years - 1
             years = c(2016:lastYear)
