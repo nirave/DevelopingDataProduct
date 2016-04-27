@@ -2,6 +2,7 @@ library(UsingR)
 
 shinyServer(  
     function(input, output) {    
+        helpText = "To run this, please enter the rate of return, the years to invest, and the initial investment in terms of dollars.  Values are automatically calculated upon hitting enter.  Note that it is limited to 1-50 years with a maximumn of $1M"
         output$newInvestment <- renderPlot({ 
             lastYear <- 2016 + input$years - 1
             years = c(2016:lastYear)
@@ -17,8 +18,11 @@ shinyServer(
            
         })
         output$newFinal<-({
-            finalValue <- 
             renderText({paste("Final Amount $", input$startCash * round((1+input$rate/100)^input$years, 2))})
+        })
+
+        output$helpText <- renderText({
+            if (input$help %% 2== 1) { isolate({HTML(helpText)})}
         })
         
     }

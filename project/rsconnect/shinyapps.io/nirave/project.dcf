@@ -2,6 +2,6 @@ name: project
 account: nirave
 server: shinyapps.io
 appId: 98592
-bundleId: 436213
+bundleId: 436295
 url: https://nirave.shinyapps.io/project/
-when: 1461785519.65316
+when: 1461791363.28244
