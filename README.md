@@ -1,5 +1,5 @@
-# Developing Data Products Project
-Final Project for Coursera's Developing Data Products
+# Shiny I/O example
+This is a simple Shiny IO app that shows the power of Shiny I/O.  Nothing exciting here.
 
 ## Simple Investment Calculator
 This is a simple presentation about the Simple Investment Calculator.
@@ -24,4 +24,4 @@ runApp()
 ## Presentation
 The rPresentation Directory has rPresentation, including the final HTML.
 
-The final presentation can be seen at: http://nirave.github.io/DevelopingDataProduct/rPresentation/Simple%20Investment%20Calculator.html#/
+The final presentation can be seen at: http://nirave.github.io/Shiny_IO_Investment_Calculator/rPresentation/Simple%20Investment%20Calculator.html#/
