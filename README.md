@@ -24,4 +24,4 @@ runApp()
 ## Presentation
 The rPresentation Directory has rPresentation, including the final HTML.
 
-The final presentation can be seen at: http://nirave.github.io/Shiny_IO_Investment_Calculator/rPresentation/Simple%20Investment%20Calculator.html#/
+The final presentation can be seen at: http://nirave.github.io/shiny_io_roi_calculator/rPresentation/Simple%20Investment%20Calculator.html#/
